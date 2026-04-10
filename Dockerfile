@@ -4,4 +4,4 @@ LABEL maintainer="pavan"
 
 RUN rm -rf /usr/local/tomcat/webapps/*
 
-COPY COPY target/web-app.war /usr/local/tomcat/webapps/ROOT.war
+COPY target/web-app.war /usr/local/tomcat/webapps/ROOT.war
